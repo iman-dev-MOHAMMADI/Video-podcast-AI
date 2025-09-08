@@ -1,7 +1,7 @@
 # Fully AI-Generated Video Podcast
 
 <p align="center">
-  <img src="[Link to a high-quality GIF or preview image of your video]" alt="Video Podcast Preview" width="70%"/>
+  <img src="assets/video-podcast-preview.gif" alt="Video Podcast Preview" width="70%"/>
 </p>
 
 <p align="center">
@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="[Link to the full video on YouTube, Vimeo, or a direct file link]">
-    <img src="https://img.shields.io/badge/▶️-Watch_The_Full_Video-red?style=for-the-badge&logo=youtube" alt="Watch Full Video"/>
+  <a href="assets/Video%20podcast.mp4">
+    <img src="https://img.shields.io/badge/▶%ef%b8%8f-Watch_The_Full_Video-red?style=for-the-badge&logo=youtube" alt="Watch Full Video"/>
   </a>
 </p>
 
@@ -22,45 +22,41 @@ This project is a complete, short-form video podcast where every creative elemen
 
 The primary goal was to explore and demonstrate how a cohesive and engaging piece of content can be rapidly assembled by intelligently orchestrating different AI models, each excelling at its specific task.
 
-### 🎙️ Podcast Topic
-[In one or two sentences, describe the topic of your podcast. E.g., This episode explores the future of human-computer interaction and the profound impact of generative AI on creative industries.]
+### 🎹️ Podcast Topic
+
+This episode explores the future of human-computer interaction and the profound impact of generative AI on creative industries.
 
 ---
 
 ## 🛠️ The AI Tech Stack
 
-The entire production pipeline was built on a foundation of cutting-edge AI tools. Here's a breakdown of the components and the technology behind them:
-
-| Component | AI Tool | Role & Purpose |
-| :--- | :--- | :--- |
-| 📜 **Script & Narrative** | **ChatGPT (OpenAI)** | Generated the initial concept, wrote the full podcast script, and structured the narrative. |
-| 🎙️ **Voice & Narration** | **NotebookLM (Google)** | Converted the written script into a natural-sounding, human-like audio narration. |
-| 👤 **Host Character** | **Krea.ai** | Designed and generated the high-resolution avatar for the podcast host. |
-| 🎨 **Background Imagery** | **ChatGPT (DALL-E 3)** | Created background visuals and conceptual art to match the theme of the podcast. |
-| 🎬 **B-Roll Footage** | **Luma AI (LXT)** | Produced short, relevant video clips to enhance the visual storytelling and maintain engagement. |
-| 👄 **Lip Sync & Animation** | **Hedra** | Animated the host's facial expressions and performed precise lip-syncing with the generated audio track. |
+| Component                   | AI Tool                 | Role & Purpose                                                                                           |
+| :-------------------------- | :---------------------- | :------------------------------------------------------------------------------------------------------- |
+| 📜 **Script & Narrative**   | **ChatGPT (OpenAI)**    | Generated the initial concept, wrote the full podcast script, and structured the narrative.              |
+| 🎹️ **Voice & Narration**   | **NotebookLM (Google)** | Converted the written script into a natural-sounding, human-like audio narration.                        |
+| 👤 **Host Character**       | **Krea.ai**             | Designed and generated the high-resolution avatar for the podcast host.                                  |
+| 🎨 **Background Imagery**   | **ChatGPT (DALL·E 3)**  | Created background visuals and conceptual art to match the theme of the podcast.                         |
+| 🎜️ **B-Roll Footage**      | **Luma AI (LXT)**       | Produced short, relevant video clips to enhance the visual storytelling and maintain engagement.         |
+| 👄 **Lip Sync & Animation** | **Hedra**               | Animated the host's facial expressions and performed precise lip-syncing with the generated audio track. |
 
 ---
 
 ## ⚙️ Workflow & Process
 
-The production followed a sequential pipeline, where the output of one tool served as the input for the next:
-
-1.  **Ideation & Scripting:** The core topic was fed into **ChatGPT** to generate a well-structured and engaging script.
-2.  **Voice Generation:** The final text was processed by **NotebookLM** to create the master audio track.
-3.  **Visual Asset Creation:** Concurrently, the host's avatar was designed in **Krea.ai**, and context-aware B-roll clips were generated using **Luma AI**.
-4.  **Animation & Assembly:** The host image and the final audio track were imported into **Hedra**, which handled the complex task of animating the character and syncing its lip movements perfectly.
-5.  **Final Polish:** All generated visual elements (main animation, B-roll, backgrounds) were composed and edited in [e.g., DaVinci Resolve / CapCut] to produce the final, polished video.
+1. **Ideation & Scripting:** The core topic was fed into **ChatGPT** to generate a well-structured and engaging script.
+2. **Voice Generation:** The final text was processed by **NotebookLM** to create the master audio track.
+3. **Visual Asset Creation:** The host's avatar was designed in **Krea.ai**, and B-roll clips were generated using **Luma AI**.
+4. **Animation & Assembly:** The host image and the audio track were imported into **Hedra** for animation and lip sync.
+5. **Final Polish:** All generated elements (main animation, B-roll, backgrounds) were composed and edited in **DaVinci Resolve** to produce the final video.
 
 ---
 
 ## 🧠 Challenges & Key Learnings
 
-- **Maintaining Cohesion:** The primary challenge was ensuring visual and narrative consistency across outputs from different, unrelated AI models.
-- **Prompt Engineering:** A significant amount of time was dedicated to meticulous prompt engineering and iteration to achieve the desired artistic style and quality from each tool.
-- **Navigating Limitations:** Each tool has its own unique constraints. Working around these limitations (e.g., video resolution, motion artifacts) was a critical part of the creative process. This project highlights the current state of the art and its impressive capabilities, as well as its limitations.
+* **Maintaining Cohesion:** Ensuring consistency across outputs from different AI models.
+* **Prompt Engineering:** Iterative prompting was required for artistic and stylistic alignment.
+* **Navigating Limitations:** Overcoming issues like resolution limits and motion artifacts.
 
 ---
 
-
-*This project is licensed under the [e.g., MIT or Creative Commons] License.*
+*This project is licensed under the MIT License.*
