@@ -1,6 +1,10 @@
 # Fully AI-Generated Video Podcast
 
 <p align="center">
+  <img src="assets/thm.jpg" alt="Video Podcast Thumbnail" width="70%"/>
+</p>
+
+<p align="center">
   <img src="assets/video-podcast-preview.gif" alt="Video Podcast Preview" width="70%"/>
 </p>
 
